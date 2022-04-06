@@ -383,4 +383,6 @@ function! VisualSelection(direction, extra_filter) range
 endfunction
 
 call plug#begin()
+    Plug 'scrooloose/nerdtree'
+    plug 'rust-lang/rust.vim'
 call plug#end()
