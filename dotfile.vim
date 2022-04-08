@@ -387,4 +387,5 @@ set number
 call plug#begin()
     Plug 'scrooloose/nerdtree'
     Plug 'rust-lang/rust.vim'
+    Plug 'valloric/youcompleteme'
 call plug#end()
