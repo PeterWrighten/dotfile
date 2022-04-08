@@ -382,6 +382,8 @@ function! VisualSelection(direction, extra_filter) range
     let @" = l:saved_reg
 endfunction
 
+set number
+
 call plug#begin()
     Plug 'scrooloose/nerdtree'
     plug 'rust-lang/rust.vim'
