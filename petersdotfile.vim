@@ -387,5 +387,5 @@ set number
 call plug#begin()
     Plug 'scrooloose/nerdtree'
     Plug 'rust-lang/rust.vim'
-    Plug 'valloric/youcompleteme'
+    Plug 'vim-scripts/AutoClose'
 call plug#end()
