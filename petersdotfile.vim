@@ -384,8 +384,12 @@ endfunction
 
 set number
 
+map <C-n> :NERDTreeToggle<CR>
+
 call plug#begin()
     Plug 'scrooloose/nerdtree'
     Plug 'rust-lang/rust.vim'
     Plug 'vim-scripts/AutoClose'
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'preservim/nerdtree'
 call plug#end()
