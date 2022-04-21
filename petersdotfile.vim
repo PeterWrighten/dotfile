@@ -392,4 +392,5 @@ call plug#begin()
     Plug 'vim-scripts/AutoClose'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'preservim/nerdtree'
+    Plug 'rust-lang/rust.vim'
 call plug#end()
