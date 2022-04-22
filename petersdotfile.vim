@@ -393,4 +393,5 @@ call plug#begin()
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'preservim/nerdtree'
     Plug 'rust-lang/rust.vim'
+    Plug 'plasticboy/vim-markdown'
 call plug#end()
