@@ -386,6 +386,9 @@ set number
 
 map <C-n> :NERDTreeToggle<CR>
 
+
+inoremap {<CR> {<CR>}<C-o>O<Tab>
+
 call plug#begin()
     Plug 'scrooloose/nerdtree'
     Plug 'rust-lang/rust.vim'
