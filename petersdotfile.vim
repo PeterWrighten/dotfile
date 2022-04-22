@@ -395,3 +395,5 @@ call plug#begin()
     Plug 'rust-lang/rust.vim'
     Plug 'plasticboy/vim-markdown'
 call plug#end()
+
+let g:vim_markdown_folding_disabled = 1
